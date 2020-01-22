@@ -19,7 +19,7 @@
 }
 
 .chats-body {
-  background-color: rosybrown;
+  background-image: url(../img/chatbg.png);
   min-height: 300vh;
 }
 
@@ -142,6 +142,13 @@
   align-self: flex-end;
   display: flex;
   justify-content: flex-end;
+}
+
+.message .message__timestamp {
+  font-size: 12px;
+  opacity: 0.8;
+  margin: 0 10px;
+  top: 20px;
 }
 
 @keyframes spin {

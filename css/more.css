@@ -6,6 +6,10 @@
   align-items: center;
 }
 
+.friend__column i {
+  cursor: pointer;
+}
+
 .more__btn-list .more__btn,
 .more .suggestion {
   margin-right: 40px;

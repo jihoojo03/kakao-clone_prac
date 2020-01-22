@@ -11,3 +11,29 @@
   opacity: 0.6;
   margin-bottom: 12px;
 }
+
+.friends__list .friend,
+.friends .friend {
+  cursor: pointer;
+}
+
+.friends__list .friend {
+  margin-bottom: 10px;
+}
+
+.friends {
+  margin-bottom: 60px;
+}
+
+.friend__column #plusfriend {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: violet;
+}
+
+#plusfriend i {
+  font-size: 30px;
+  color: white;
+}
